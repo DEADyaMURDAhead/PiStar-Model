@@ -221,6 +221,22 @@ This creates a unified structure for analyzing performance behavior.
 
 ---
 
+12. CPU Efficiency Mirror
+
+The Π*‑Φ‑Λ‑Ω System applies symmetrically to the CPU domain, where efficiency is shaped by frequency behavior, voltage dynamics, and workload distribution across active cores. While the GPU expresses parallel saturation and render‑lock characteristics, the CPU exhibits its own mirrored stability pattern defined by thermal limits and scheduler behavior.
+
+The CPU’s Π* state can be understood as a balance between three forces:
+
+• the effective operating speed of the cores
+• the voltage required to sustain that speed
+• the intensity and structure of the workload being executed
+
+These forces interact to form the CPU’s efficiency curve, which rises until it reaches the Λ‑ridge — the point where thermal dissipation, voltage scaling, and scheduler efficiency intersect. Beyond this ridge, additional load no longer produces meaningful gains, and the system transitions into its Ω‑state: a post‑load equilibrium where throughput stabilizes without further efficiency increase.
+
+This creates a dual‑channel interpretation of the framework: both CPU and GPU follow the same Π*‑Φ‑Λ‑Ω progression, each with its own internal mechanics, yet both converging at the Λ‑ridge. The result is a unified system‑level model of stability and efficiency across compute domains.
+
+---
+
 Glossary
 
 Π*
