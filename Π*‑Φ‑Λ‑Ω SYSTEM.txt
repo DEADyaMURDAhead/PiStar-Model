@@ -1,0 +1,300 @@
+Π*‑Φ‑Λ‑Ω SYSTEM
+
+A Unified Model of Performance Stability, Lock‑In, and Post‑Render Dynamics
+
+Author: DEADyaMURDAhead
+Version: 1.0
+Date: April 2026
+
+---
+
+1. Overview
+
+The Π*‑Φ‑Λ‑Ω System is a unified conceptual framework describing how CPU and GPU workloads interact across stability zones, lock‑in behavior, and post‑render dynamics. It provides a dimensionless, hardware‑agnostic method for analyzing:
+
+• performance ceilings
+• efficiency scaling
+• collapse zones
+• internal resolution behavior
+• CPU/GPU flow balance
+• tuning stability
+
+
+This system is designed for universal application across games, engines, and hardware generations.
+
+---
+
+2. Core Components
+
+The model is built on four primary symbols:
+
+Π* — Efficiency Index
+
+Represents the dimensionless performance efficiency of the system under load. Captures the relationship between internal resolution, GPU load, and realized FPS.
+
+Φ — Flow
+
+Describes the CPU→GPU→Render pipeline throughput. Represents how cleanly work moves through the system without stalls or back‑pressure.
+
+Λ — Lock‑In Zone
+
+Defines the region where performance becomes “locked” due to CPU or GPU bottleneck dominance. Λ indicates which side of the pipeline is controlling the frame rate.
+
+Ω — Stability Envelope
+
+Represents the system’s tolerance to fluctuations in load, resolution, and scene complexity. Ω determines whether the system remains stable or collapses into a lower performance tier.
+
+---
+
+3. System Intent
+
+The Π*‑Φ‑Λ‑Ω System provides:
+
+• a unified language for describing performance behavior
+• a dimensionless model that works across resolutions and hardware
+• a predictive structure for tuning internal resolution
+• a framework for identifying stability zones and collapse points
+
+
+This model is not tied to any specific game or GPU vendor.
+
+---
+
+4. Π* — Efficiency Index
+
+Π* is the central metric of the system.
+It expresses how efficiently the GPU converts internal resolution load into delivered FPS.
+
+Key behaviors
+
+• Π* increases when internal resolution is tuned into the Goldilocks zone
+• Π* collapses when CPU bottlenecks dominate
+• Π* saturates when GPU load reaches its ceiling
+• Π* is dimensionless and comparable across hardware
+
+
+---
+
+5. Φ — Flow Dynamics
+
+Φ describes the throughput of the CPU→GPU→Render pipeline.
+
+High Φ
+
+• consistent frame pacing
+• minimal stalls
+• predictable scaling
+
+
+Low Φ
+
+• CPU stalls
+• GPU starvation
+• inconsistent frame pacing
+• collapse into Λ‑lock
+
+
+Φ determines how well Π* can be maintained.
+
+---
+
+6. Λ — Lock‑In Behavior
+
+Λ defines which component is controlling the frame rate.
+
+Λ_CPU
+
+• CPU‑bound
+• GPU underutilized
+• Π* suppressed
+
+
+Λ_GPU
+
+• GPU‑bound
+• predictable scaling
+• Π* stable
+
+
+Λ_Hybrid
+
+• transitional zone
+• unstable scaling
+• sensitive to internal resolution
+
+
+Λ is the “mode” the system is currently operating in.
+
+---
+
+7. Ω — Stability Envelope
+
+Ω determines whether the system remains stable under load.
+
+High Ω
+
+• stable performance
+• predictable scaling
+• wide Goldilocks zone
+
+
+Low Ω
+
+• collapse into CPU bottleneck
+• frame pacing instability
+• narrow tuning window
+
+
+Ω is influenced by scene complexity, CPU thread behavior, and GPU saturation.
+
+---
+
+8. Goldilocks Zone
+
+The Goldilocks zone is the internal resolution range where:
+
+• Π* is maximized
+• Φ is smooth
+• Λ is GPU‑dominant
+• Ω is stable
+
+
+This is the target region for tuning.
+
+---
+
+9. Collapse Zones
+
+Collapse occurs when the system exits the stability envelope.
+
+Collapse triggers
+
+• CPU thread saturation
+• excessive internal resolution
+• GPU VRAM pressure
+• scene complexity spikes
+
+
+Collapse results in:
+
+• sudden FPS drops
+• unstable Π*
+• transition into Λ_CPU
+
+
+---
+
+10. Internal Resolution Scaling
+
+Internal resolution is the primary control variable for tuning Π*.
+
+Half‑resolution behavior
+
+Empirically, many engines exhibit:
+
+• ~1.6× FPS scaling at 0.5× internal resolution
+• predictable Π* increase
+• improved Φ
+• stabilized Ω
+
+
+This behavior is consistent across multiple engines and hardware generations.
+
+---
+
+11. CPU/GPU Flow Model
+
+The system models the pipeline as:
+
+CPU → Φ → GPU → Render → Output
+
+
+Where:
+
+• CPU determines Λ mode
+• Φ determines throughput
+• GPU determines Π*
+• Ω determines stability
+
+
+This creates a unified structure for analyzing performance behavior.
+
+---
+
+Glossary
+
+Π*
+
+Dimensionless efficiency index.
+
+Φ
+
+Flow of work through the CPU→GPU pipeline.
+
+Λ
+
+Lock‑in zone (CPU‑bound, GPU‑bound, or hybrid).
+
+Ω
+
+Stability envelope of the system.
+
+β
+
+Resolution ratio (internal vs output).
+
+Goldilocks Zone
+
+Optimal internal resolution range for maximum Π*.
+
+Collapse Zone
+
+Region where stability fails and performance drops sharply.
+
+---
+
+Appendix A — Example Behavior
+
+At 0.5× internal resolution:
+
+• GPU load decreases
+• CPU bottleneck becomes visible
+• Π* increases
+• Φ smooths
+• Ω stabilizes
+
+
+At 1.0× internal resolution:
+
+• GPU saturates
+• Λ shifts to GPU‑bound
+• Π* stabilizes
+• Ω narrows
+
+
+---
+
+Appendix B — Tuning Methodology
+
+1. Start at native resolution
+2. Lower internal resolution until Π* increases
+3. Identify the Goldilocks zone
+4. Confirm Φ stability
+5. Validate Ω under heavy scenes
+6. Document Λ transitions
+
+
+---
+
+Appendix C — Universality
+
+The Π*‑Φ‑Λ‑Ω System is designed to be:
+
+• engine‑agnostic
+• hardware‑agnostic
+• resolution‑agnostic
+• future‑proof
+
+
+It describes behavior, not brand‑specific features.
+
