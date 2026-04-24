@@ -169,6 +169,7 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 ---
 
 ### Version
-
+**DOI:** [10.5281/zenodo.19727850](https://doi.org/10.5281/zenodo.19727850)
+**First public release:** 2026-04-24
 **v1.0 — April 24, 2026**  
 **Author:** DEADyaMURDAhead / Caleb Joe Bastian
