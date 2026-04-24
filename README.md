@@ -151,6 +151,16 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 - **Balanced (Ω stable, Λ≈50/50):** 180–192 FPS, 49% GPU bottleneck, 46–47°C avg
 - **GPU-bound (Λ→GPU):** 148–152 FPS, 89% GPU bottleneck, 48–49°C avg
 - **Intermediate (Λ hybrid):** 187–198 FPS, 70% GPU bottleneck, 43–45°C avg
+- **Visual evidence (Black Ops 7 Benchmark, April 21, 2026):**
+
+*Balanced — 49% GPU, 192 FPS*
+![49% GPU](media/IMG_0905.png)
+
+*Hybrid — 70% GPU, 187 FPS*
+![70% GPU](media/IMG_0904.jpeg)
+
+*GPU-bound — 89% GPU, 148 FPS*
+![89% GPU](media/IMG_0905.jpeg)
 
 ---
 ### Appendix B — Tuning Methodology
