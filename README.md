@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="media/IMG_0744.png" width="240" />
-</p>
+  <![Upgraded form with regime gate](media/IMG_0822.jpeg)
+ width="600">
 # Π*‑Φ‑Λ‑Ω SYSTEM — v1.0 (Math Revealed)
 
 **A Unified Model of Performance Stability, Lock‑In, and Post‑Render Dynamics**
