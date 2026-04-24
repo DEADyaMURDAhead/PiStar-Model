@@ -10,7 +10,6 @@
 ## Author's Note — 
 
 - I bought my first PC on March 4, 2026. I have no formal lab, no prior benchmarking experience, and no dataset beyond what I observed myself.
-myself.
 - I noticed consistent performance patterns while playing Call of Duty on that PC (March–April 2026) and documented them with Black Ops 7 benchmark screenshots taken April 21, 2026.
 - The FPS gain ranges cited in this repo (1.66×–2.53×) are not from testing I performed. They are synthesized from memory of multiple public hardware reviews I read online between 2021–2024.
 - I used AI tools (ChatGPT, Copilot, and Meta AI) to help formalize those observations into the PiStar Stability Ceiling Model and to write the equations and documentation.
@@ -140,13 +139,6 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 **Collapse Zone** — region where Ω fails
 
 *Symbols chosen for mnemonic value within this framework, not to imply physical constants.*
-
----
-
-### Appendix A — Example Behavior
-
-**Configuration:** 3200×900 → 1600×448 (β=0.249, S=2.0, aspect ≈ matched)
-*Note: 1600×448 is the internal render target acting as the control arm; it is not a perfect 50% scale, which is why Ω uses "≈" for aspect matching rather than strict equality.*
 
 ---
 
