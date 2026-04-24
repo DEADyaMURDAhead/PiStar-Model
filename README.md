@@ -144,11 +144,13 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 
 ### Appendix A — Example Behavior
 
-**Configuration:** 3200×900 → 1600×448 (β=0.249, S=2.0, aspect ≈ matched)  
+**Configuration:** 3200×900 → 1600×448 (β=0.249, S=2.0, aspect ≈ matched), AMD FSR 4, Frame Gen Off, 8700F + RX 9060 XT — documented April 21, 2026
+
 *Note: 1600×448 is the internal render target; Ω uses "≈" for aspect matching.*
 
-- **At 0.5×:** GPU load ↓, Π* ↑, Φ smooth, Ω stable (Run A: 192 FPS, 49% GPU, 46°C)
-- **At 1.0×:** GPU saturates, Λ→GPU, Ω narrows (Runs B/C: ~150 FPS, 89% GPU)
+- **Balanced (Ω stable, Λ≈50/50):** 180–192 FPS, 49% GPU bottleneck, 46–47°C avg
+- **GPU-bound (Λ→GPU):** 148–152 FPS, 89% GPU bottleneck, 48–49°C avg
+- **Intermediate (Λ hybrid):** 187–198 FPS, 70% GPU bottleneck, 43–45°C avg
 
 ---
 ### Appendix B — Tuning Methodology
