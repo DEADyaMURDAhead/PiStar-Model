@@ -85,7 +85,7 @@ High Φ = consistent pacing, minimal stalls. Low Φ = CPU stalls, GPU starvation
 
 ### 8. Goldilocks Zone
 
-The range where Π* is maximized, Φ is smooth, Λ is GPU-dominant, and Ω conditions are met. Initial testing suggests this occurs near β ≈ 0.25–0.45.
+The range where Π* is maximized, Φ is smooth, Λ is near-balanced (about 49–70% GPU), and Ω conditions are met. Initial testing suggests this occurs near β ≈ 0.25–0.45.
 
 ---
 
