@@ -121,22 +121,24 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 
 ---
 
-### Glossary
+## Glossary
 
-**Π*** — Dimensionless efficiency index (see Section 4)
-**Φ** — Flow ratio (Section 5)
-**Λ** — Lock-in product Π*·Φ (Section 6)
-**Ω** — Stability envelope defined by aspect, scale, and β ≤0.45
-**β** — Resolution ratio (W_int·H_int)/(W_out·H_out)
-**f_vram** — VRAM effective frequency
-**Δf_core** — core clock delta from baseline
-**R_out** — output resolution pixel count
-**ΔV** — voltage delta
-**f_t/f_r** — test/reference CPU frequency
-**P_t/P_r** — power draw
-**W_t/W_r** — work units completed
-**Goldilocks Zone** — β range where Π* peaks and Ω holds
-**Collapse Zone** — region where Ω fails
+Π* — Dimensionless efficiency index (see Section 4).  
+Φ — Flow ratio (see Section 5).  
+Λ — Lock-in product Π*·Φ (see Section 6).  
+Ω — Stability envelope defined by aspect, scale, and β, considered valid while β ≤ 0.45.  
+
+β — Resolution ratio, defined as (W_int:H_int)/(W_out:H_out).  
+f_vram — Effective VRAM frequency under the tested configuration.  
+Δf_core — Core clock delta from the defined baseline frequency.  
+R_out — Output resolution pixel count.  
+ΔV — Voltage delta from the defined baseline.  
+f_t/f_r — Ratio of test CPU frequency to reference CPU frequency.  
+P_t/P_r — Ratio of test power draw to reference power draw.  
+W_t/W_r — Ratio of work units completed (test vs reference).  
+
+Goldilocks Zone — β range where Π* peaks and Ω remains valid (stability maintained).  
+Collapse Zone — Region where Ω fails and the system exits the stability envelope (stability lost).  
 
 *Symbols chosen for mnemonic value within this framework, not to imply physical constants.*
 
