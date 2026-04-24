@@ -1,5 +1,5 @@
 
-  ![Upgraded form with regime gate](media/IMG_0822.jpeg)
+  ![Upgraded form with regime gate](media/IMG_0824.png)
  <p
 # Π*‑Φ‑Λ‑Ω SYSTEM — v1.0 (Math Revealed)
 
