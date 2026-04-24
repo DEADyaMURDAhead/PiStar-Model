@@ -151,7 +151,6 @@ Optimal operation occurs sub-critically, just below the Λ-ridge, where Π* is m
 4. Confirm Φ
 5. Validate Ω under load
 6. Document Λ transitions
-
 ---
 
 ### Appendix C — Universality
