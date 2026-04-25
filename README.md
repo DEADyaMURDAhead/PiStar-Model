@@ -5,9 +5,10 @@ The Π*Φ‑Λ‑Ω System proposes a unified, dimensionless framework for descr
  <p
 # Π*‑Φ‑Λ‑Ω SYSTEM — v1.0 (Math Revealed)
 
-**A Unified Model of Performance Stability, Lock‑In, and Post‑Render Dynamics**
-
-**Author:** DEADyaMURDAhead / Caleb Joe Bastian
+**A Unified Model of Performance Stability, Lock‑In, and Post‑Render Dynamics**  
+**Author:** DEADyaMURDAhead / Caleb Joe Bastian  
+**Version:** 1.0  
+**Release Date:** April 24, 2026
 
 ## Author’s Note —
 - I bought my first PC on March 4, 2026. I have no formal lab, no prior benchmarking experience, and no dataset beyond what I observed myself.  
